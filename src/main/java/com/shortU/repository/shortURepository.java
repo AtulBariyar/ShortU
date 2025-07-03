@@ -1,4 +1,7 @@
 package com.shortU.repository;
 
-public interface shortURepository {
+import com.shortU.model.shortUMap;
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+public interface shortURepository extends MongoRepository<shortUMap,String> {
 }
