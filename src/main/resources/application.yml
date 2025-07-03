@@ -1,0 +1,17 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://atul:oLhL1dGpqnY8zP10@cluster0.fa0epqa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: shortU
+      auto-index-creation: true
+
+server:
+  port: 8080
+
+
+
+
+
+
+
+
